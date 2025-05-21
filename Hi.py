@@ -1,4 +1,4 @@
-import Fbchat
+import fbchat
 
 # Replace with your Facebook credentials
 USERNAME = "Krarktel@yahoo.com"
