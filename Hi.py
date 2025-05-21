@@ -6,7 +6,11 @@ from bs4 import BeautifulSoup
 import time
 
 def check_active_friends(username, password):
-    driver = webdriver.Chrome() # or other browser driver
+    options = Options()
+    options.add_argument("--headless")
+    options = webdriver.ChromeOptions()
+    driver = webdriver.Chrome(options=options)
+    # or other browser driver
     driver.get("https://www.facebook.com/")
 
     # Login
