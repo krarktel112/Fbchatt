@@ -2,7 +2,7 @@ from fbchat import Client, ActiveStatus
 from fbchat.models import User
 
 # Assuming 'client' is an instance of fbchat.Client
-user: User = client.fetchUserInfo("user_id")["user_id"]
+user: User = client.fetchUserInfo("50403374")["user_id"]
 
 if user.active_status == ActiveStatus.ACTIVE:
     print("User is active")
