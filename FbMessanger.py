@@ -1,6 +1,18 @@
 from fbchat import Client, ActiveStatus
 from fbchat.models import User
-
+from fbchat import Client
+from getpass import getpass
+    
+email = input("Email: ")
+password = getpass("Password: ")
+    
+client = Client(email, password)
+    
+if client.isLoggedIn():
+    print("Logged in successfully!")
+else:
+    print("Login failed.")
+        
 # Assuming 'client' is an instance of fbchat.Client
 user: User = client.fetchUserInfo("50403374")["user_id"]
 
