@@ -1,5 +1,4 @@
-from fbchat import Client
-from fbchat.models import Message
+import Fbchat
 
 # Replace with your Facebook credentials
 USERNAME = "Krarktel@yahoo.com"
