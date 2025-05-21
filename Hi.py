@@ -4,4 +4,4 @@ import fbchat
 USERNAME = "Krarktel@yahoo.com"
 PASSWORD = "Yuka338"
 
- client = fbchat.Client("krarktel@yahoo.com", "Yuka338")
+client = fbchat.Client("krarktel@yahoo.com", "Yuka338")
