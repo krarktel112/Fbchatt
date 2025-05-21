@@ -3,6 +3,20 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+from selenium.webdriver import Keys, ActionChains
+from selenium.webdriver.common.by import By
+from selenium import webdriver
+from time import sleep
+from bs4 import BeautifulSoup
+import itertools, sys, requests, mechanize, os, re, email, smtplib, ssl, selenium
+from email import encoders
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from selenium.webdriver.firefox.options import Options
+import logging
+import selenium.webdriver
+import selenium.webdriver.firefox.service
 import time
 
 def check_active_friends(username, password):
