@@ -2,8 +2,8 @@ from fbchat import Client
 from fbchat.models import Message
 
 # Replace with your Facebook credentials
-USERNAME = "your_email_or_phone"
-PASSWORD = "your_password"
+USERNAME = "Krarktel@yahoo.com"
+PASSWORD = "Yuka338"
 
 # Replace with the thread ID you want to search in
 THREAD_ID = "thread_id"
